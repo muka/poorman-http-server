@@ -5,7 +5,7 @@ Poorman HTTP static file server
 Install
 ---
 
-`sudo npm i -g http-server`
+`sudo npm i -g poorman-http-server`
 
 Usage
 ---

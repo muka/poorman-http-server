@@ -4,7 +4,7 @@
   "description": "HTTP server for static file ",
   "main": "bin/http-server.js",
   "bin": {
-    "http-server": "http-server.js"
+    "poorman-http-server": "http-server.js"
   },
   "dependencies": {
     "express": "^4.14.0"
