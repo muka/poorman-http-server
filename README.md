@@ -1,4 +1,4 @@
-#http-server
+#poorman-http-server
 
 Poorman HTTP static file server
 
