@@ -1,10 +1,10 @@
 {
   "name": "poorman-http-server",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "HTTP server for static file ",
   "main": "bin/http-server.js",
   "bin": {
-    "poorman-http-server": "http-server.js"
+    "http-server": "bin/http-server.js"
   },
   "dependencies": {
     "express": "^4.14.0"
