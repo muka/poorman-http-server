@@ -1,14 +1,14 @@
 {
   "name": "poorman-http-server",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "HTTP server for static file ",
   "type": "module",
   "engines": {
     "node": ">= 22.11 < 23"
   },
-  "main": "bin/http-server.js",
+  "main": "bin/http-server.ts",
   "bin": {
-    "http-server": "bin/http-server"
+    "http-server": "bin/http-server.ts"
   },
   "dependencies": {
     "commander": "13.1.0",
