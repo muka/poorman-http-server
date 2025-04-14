@@ -7,7 +7,7 @@ import pkg from '../package.json' with { type: "json" };
 import { newLogger } from '../src/logger.js';
 import httpServer from '../src/http-server.js';
 
-const logger = newLogger('lt')
+const logger = newLogger('http-server')
 
 type CliOpts = {
   port: number
@@ -38,7 +38,7 @@ const main = async () => {
   }
 
   const portOption = new Option(
-    '--port, -p <number>', 'Internal HTTP server port'
+    '--port, -p <number>', 'HTTP server port'
   )
   portOption.required = true
   portOption.defaultValue = 3000
